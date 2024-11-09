@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 .highlight {
+    color: #00aaff;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('images/milky-way.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text h2 .highlight {
+    color: #00aaff;
+  }
+  
+  section.locals {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .locals h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .planets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .planet {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .planet img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .planet h4 {
+    margin: 0.5rem 0;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0088cc;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #111;
+  }
